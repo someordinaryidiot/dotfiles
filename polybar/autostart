@@ -1,1 +1,15 @@
+# reloading menu
+mmaker OpenBox -f
+openbox --reconfigure
 
+# set keyboard layout
+setxkbmap de
+
+# enable compositor
+picom -f &
+
+# enable polybar
+polybar&
+
+# restore wallpaper
+nitrogen --restore
